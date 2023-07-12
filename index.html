@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Birthday</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="headline">Countdown to <span> ----'s birthday</span></h1>
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+      <div id="content" class="emoji">
+        <button class="show-modal">Click me, ----</button>
+        <div class="modal hidden">
+          <button class="close-modal">&times;</button>
+          <h1>Happy Birthday !!! 😍</h1>
+          <!-- image should be photos of birthday person -->
+          <img
+            src="images/img5.jpg"
+            alt=""
+            class="image-showcase"
+            alt="Oops!!!"
+          />
+        </div>
+        <div class="overlay hidden"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js" defer></script>
+</html>
